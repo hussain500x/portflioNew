@@ -1,0 +1,34 @@
+@import '../scss/bootstrap.scss';
+@import 'dark';
+
+/* Define standard variables and values for website */
+$bgcolor: rgb(255, 255, 255);
+$textcolor: #000000;
+$fontsize: 18px;
+
+.navbg {
+  background: $bgcolor ;
+}
+
+.nav-fsize {
+  font-size: 24px;
+}
+
+.text {
+  color: $textcolor;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  perspective-origin: 50%;
+  transform-origin: 50%;
+  background-color: #191919;
+  border-top-width: 0
+}
+
+.line-vertical {
+  width: 100%;
+  height: 100%;
+  background-color: #191919
+}

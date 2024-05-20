@@ -1,0 +1,25 @@
+/* Define standard variables and values for website */
+$bgcolor: rgb(0, 0, 0);
+$textcolor: #ffffff;
+$fontsize: 18px;
+
+.dark {
+  background: darkblue;
+}
+
+.dark {
+  .text {
+    color: $textcolor;
+  }
+
+  .navbg {
+    background: $bgcolor ;
+  }
+
+  .nav-fsize {
+    font-size: 24px;
+  }
+
+
+
+}
