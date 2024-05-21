@@ -4,6 +4,7 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11967,17 +11968,135 @@ textarea.form-control-lg {
 }
 /* Define standard variables and values for website */
 .dark {
-  background: darkblue;
+  background: rgb(0, 0, 0);
 }
 
-.dark .text {
+.dark .hellobox {
+  background: #F5F3F0;
+  color: #000000;
+}
+.dark .dtext {
   color: #ffffff;
+}
+.dark .dline {
+  background: #ffffff;
 }
 .dark .navbg {
   background: rgb(0, 0, 0);
 }
-.dark .nav-fsize {
-  font-size: 24px;
+.dark .iconsun {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: rgb(0, 0, 0);
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular,
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 /* Define standard variables and values for website */
@@ -11986,7 +12105,12 @@ textarea.form-control-lg {
 }
 
 .nav-fsize {
-  font-size: 24px;
+  font-size: 2rem;
+}
+
+.sub-nav,
+.nav-link {
+  font-size: 1.5rem;
 }
 
 .text {
@@ -12006,4 +12130,104 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
   background-color: #191919;
+}
+
+.iconsun {
+  font-size: 20px !important;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  background: white;
+  border: 2px solid #040404;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.mt-section {
+  margin-top: 9.389rem;
+}
+
+.hellobox {
+  font-size: 1.5rem;
+  background: #000000;
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.lodertype,
+.dtext .typed-cursor {
+  font-weight: 600;
+  color: #A3B2FF;
+  text-decoration: underline;
+}
+
+.sublodertype {
+  font-weight: 300;
+  font-size: 1.75rem;
+}
+
+.btcontavt {
+  margin-right: 2.5rem;
+  font-size: 1.125rem;
+  color: #FFF;
+  padding: 18px 24px;
+  background: #183AEF;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btcontavt:hover {
+  background: #152fc5;
+}
+
+.contacticon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.myResume {
+  font-size: 1.125rem;
+  margin-left: 2.5rem;
+}
+
+.mt-64 {
+  margin-top: 4rem;
+}
+
+.counterBox {
+  padding: 40px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: #F7F6F3;
+}
+
+.counterNumber {
+  font-size: 3rem;
+}
+
+.counterPlus {
+  color: #A3B2FF;
+}
+
+.imageBox {
+  height: 100%;
+  border: 3px solid #000;
+  box-shadow: 10px 10px #f7f6f3;
+  border-radius: 8px;
+}
+
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1800px;
+  }
 }/*# sourceMappingURL=main.css.map */

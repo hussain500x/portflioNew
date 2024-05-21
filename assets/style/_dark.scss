@@ -1,23 +1,33 @@
 /* Define standard variables and values for website */
 $bgcolor: rgb(0, 0, 0);
 $textcolor: #ffffff;
-$fontsize: 18px;
 
 .dark {
-  background: darkblue;
+  background: $bgcolor;
 }
 
 .dark {
-  .text {
+  .hellobox {
+    background: #F5F3F0;
+    color: #000000;
+  }
+
+  .dtext {
     color: $textcolor;
+  }
+
+  .dline {
+    background: #ffffff;
   }
 
   .navbg {
     background: $bgcolor ;
   }
 
-  .nav-fsize {
-    font-size: 24px;
+  .iconsun {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: rgb(0, 0, 0);
   }
 
 

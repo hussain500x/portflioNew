@@ -1,14 +1,23 @@
 /* Define standard variables and values for website */
 .dark {
-  background: darkblue;
+  background: black;
 }
 
-.dark .text {
+.dark .hellobox {
+  background: #F5F3F0;
+  color: #000000;
+}
+.dark .dtext {
   color: #ffffff;
+}
+.dark .dline {
+  background: #ffffff;
 }
 .dark .navbg {
   background: black;
 }
-.dark .nav-fsize {
-  font-size: 24px;
+.dark .iconsun {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: black;
 }
