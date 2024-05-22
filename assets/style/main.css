@@ -11989,6 +11989,16 @@ textarea.form-control-lg {
   border: 2px solid #ffffff;
   background: rgb(0, 0, 0);
 }
+.dark .counterBox {
+  background: #F7F6F3;
+}
+.dark .ltext {
+  color: #000000;
+}
+.dark .imageBox {
+  border: 3px solid #000000;
+  box-shadow: 10px 10px #ffffff;
+}
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -12203,7 +12213,11 @@ textarea.form-control-lg {
   padding: 40px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  background: #F7F6F3;
+  background: #000000;
+}
+
+.ltext {
+  color: #ffffff;
 }
 
 .counterNumber {
@@ -12215,19 +12229,18 @@ textarea.form-control-lg {
 }
 
 .imageBox {
+  max-width: 100%;
   height: 100%;
-  border: 3px solid #000;
-  box-shadow: 10px 10px #f7f6f3;
+  border: 3px solid #ffffff;
+  box-shadow: 10px 10px #000000;
   border-radius: 8px;
 }
 
-@media (min-width: 1400px) {
-  .container-xxl,
-  .container-xl,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container {
-    max-width: 1800px;
-  }
+.btLine {
+  margin-bottom: 50px;
+}
+
+.aboutText {
+  font-size: 1.5rem;
+  font-weight: 200;
 }/*# sourceMappingURL=main.css.map */
