@@ -94,6 +94,9 @@ $textcolor: #ffffff;
 
   }
 
+.test {
+  filter: invert(0);
+}
   .iconcon:hover .test {
     filter: invert(1);
   }

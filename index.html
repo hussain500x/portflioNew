@@ -1,482 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<link rel="stylesheet" href="assets/style/main.css">
-<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
 
-<!-- font Awsom -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- font Awsom -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- font -->
-<link rel="stylesheet" href="assets/style/font-awesome.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-  rel="stylesheet">
+  <!-- font -->
+  <link rel="stylesheet" href="assets/style/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-<body class="dark">
+  <body class="dark">
 
 
-  <!-- lines -->
-  <!-- 
+    <!-- lines -->
+    <!-- 
     <div data-w-id="e6d1c76f-1c1e-5017-c10e-a48eea75e8b8" class="line-vertical hide-mobile-landscape"
   style="height: 100%; width: 1px;"></div>
 
   <div class="line" style="width: 100%; height: 1px;"></div>
  -->
-  <nav class="navbar navbar-expand-lg" aria-label="Ninth navbar example">
-    <div class="container-xl">
-      <a class="navbar-brand" href="#">
-        <h1 class="m-0 p-0 nav-fsize dtext"> &lt;HUSSAIN ALMARZOOQ/&gt;</h1>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
-        aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExample07XL">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link dtext" aria-current="page" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link dtext" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link dtext" href="#">contact</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg" aria-label="Ninth navbar example">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">
+          <h1 class="m-0 p-0 nav-fsize dtext"> &lt;HUSSAIN ALMARZOOQ/&gt;</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
+          aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link dtext" aria-current="page" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dtext" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dtext" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+
+    <div class="line dline" style="width: 100%; height: 1px;"></div>
+
+
+    <!-- dark mode -->
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <i onclick="darkMode(this)" class="iconsun dtext fa fa-sun-o"></i>
     </div>
-  </nav>
-
-  <div class="line dline" style="width: 100%; height: 1px;"></div>
 
 
-  <!-- dark mode -->
-  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-    <i onclick="darkMode(this)" class="iconsun dtext fa fa-sun-o"></i>
-  </div>
-
-
-  <!-- section 1 -->
-  <section class="mt-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 col-12">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-              <div>
-                <p class="hellobox">Hello There 🤗</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-              <h1 class="dtext fw-bold">Hussain Almarzooq <span class="typed lodertype"
-                  data-typed-items="Designer!, Developer!, Freelancer!, Photographer!"></span>
-              </h1>
-              <p class="dtext sublodertype">I am a passionate and experienced web designer, dedicated to creating
-                visually stunning
-                and highly functional websites. Explore my portfolio to see the power of effective design in action</p>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 mt-1">
-              <div class="d-inline-flex">
-                <a href="" class="btcontavt"><i class="fa fa-phone contacticon" aria-hidden="true"></i> Contact Me</a>
-                <a href="" class="dtext myResume m-auto">My Resume ↗</a>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 mt-64">
-              <div class="row counterBox ">
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 p-0">
-                  <h1 class="counterNumber m-0 ltext">25<span class="counterPlus">+</span></h1>
-                  <h5 class="ltext">Completed Projects</h5>
+    <!-- section 1 -->
+    <section class="mt-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 col-12">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                <div>
+                  <p class="hellobox">Hello There 🤗</p>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 p-0">
-                  <h1 class="counterNumber m-0 ltext">10<span class="counterPlus">+</span></h1>
-                  <h5 class="ltext">Completed Projects</h5>
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 p-0">
-                  <h1 class="counterNumber m-0 ltext">03<span class="counterPlus">+</span></h1>
-                  <h5 class="ltext">Completed Projects</h5>
-                </div>
-
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 ps-0">
-          <img class="imageBox" src="assets/image/hero-bg.jpg" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                <h1 class="dtext fw-bold">Hussain Almarzooq <span class="typed lodertype"
+                    data-typed-items="Designer!, Developer!, Freelancer!, Photographer!"></span>
+                </h1>
+                <p class="dtext sublodertype">I am a passionate and experienced web designer, dedicated to creating
+                  visually stunning
+                  and highly functional websites. Explore my portfolio to see the power of effective design in action
+                </p>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 mt-1">
+                <div class="d-inline-flex">
+                  <a href="" class="btcontavt"><i class="fa fa-phone contacticon" aria-hidden="true"></i> Contact Me</a>
+                  <a href="" class="dtext myResume m-auto">My Resume ↗</a>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 mt-64">
+                <div class="row counterBox ">
+                  <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 p-0">
+                    <h1 class="counterNumber m-0 ltext">25<span class="counterPlus">+</span></h1>
+                    <h5 class="ltext">Completed Projects</h5>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 p-0">
+                    <h1 class="counterNumber m-0 ltext">10<span class="counterPlus">+</span></h1>
+                    <h5 class="ltext">Completed Projects</h5>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 p-0">
+                    <h1 class="counterNumber m-0 ltext">03<span class="counterPlus">+</span></h1>
+                    <h5 class="ltext">Completed Projects</h5>
+                  </div>
 
-
-  <!-- about -->
-  <section class="mt-section">
-
-    <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
-
-    <div class="container">
-      <div class="row">
-        <h1 class="dtext"> Aboue me</h1>
-        <p class="dtext aboutText">I’m Hussain Almarzooq, a computer science graduate, programmer, designer with
-          front-end and
-          back-end
-          development skills. I am passionate about employing my diverse background to solve challenging problems and
-          create delightful experiences. I honed my skills in software, web development, and photography. I develop
-          websites with HTML, CSS, and JavaScript. I have top skills in using design software like Figma, Adobe XD and
-          Photoshop. My most important character is being diligent and always striving to achieve the best result in
-          every project I get my hands on.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Quee item -->
-  <section class="mt-section">
-
-    <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
-
-
-    <div class="container">
-      <div class="row">
-        <h1 class="dtext"> Tools</h1>
-        <div class="col">
-          <div class="marquee-wrapper">
-            <div class="container position-relative">
-              <div class="queeblurL"></div>
-              <div class="queeblurR"></div>
-              <div class="marquee-block">
-                <div class="marquee-inner to-left">
-
-                  <span>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/SQL.svg" alt="">
-                      <p class="dtext psvgtag mt-3">MySQL</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/GitHub.svg" alt="">
-                      <p class="dtext psvgtag mt-3">GitHub</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/git.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Git</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Figma.svg" alt="">
-                      <p class="dtext psvgtag mt-3">figma</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/JavaScript.svg" alt="">
-                      <p class="dtext psvgtag mt-3">JavaScript</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Bootstrap.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Bootstrap</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/MongoDB.svg" alt="">
-                      <p class="dtext psvgtag mt-3">MongoDB</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Angular.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Angular</p>
-                    </div>
-                  </span>
-                  <span>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/SQL.svg" alt="">
-                      <p class="dtext psvgtag mt-3">MySQL</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/GitHub.svg" alt="">
-                      <p class="dtext psvgtag mt-3">GitHub</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/git.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Git</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Figma.svg" alt="">
-                      <p class="dtext psvgtag mt-3">figma</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/JavaScript.svg" alt="">
-                      <p class="dtext psvgtag mt-3">JavaScript</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Bootstrap.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Bootstrap</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/MongoDB.svg" alt="">
-                      <p class="dtext psvgtag mt-3">MongoDB</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Angular.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Angular</p>
-                    </div>
-                  </span>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-  </section>
-
-  <!-- projects -->
-  <section class="mt-section">
-    <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
-    <div class="container">
-      <div class="row">
-        <h1 class="dtext">Projects</h1>
-        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
-            <div class="aaaa">
-              <h5 class="dtext">Card title</h5>
-              <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
-                bulk of the
-                card's
-                content.</p>
-              <div class="d-flex mb-4">
-                <a href="#" class="btn greenbt">Online</a>
-                <p class="m-auto purple">Angular</p>
-                <p class="m-auto purple">postgress</p>
-                <p class="m-auto purple">asp.net</p>
-              </div>
-            </div>
-            <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
-            <div class="aaaa">
-              <h5 class="dtext">Card title</h5>
-              <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
-                bulk of the
-                card's
-                content.</p>
-              <div class="d-flex mb-4">
-                <a href="#" class="btn greenbt">Online</a>
-                <p class="m-auto purple">Angular</p>
-                <p class="m-auto purple">postgress</p>
-                <p class="m-auto purple">asp.net</p>
-              </div>
-            </div>
-            <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
-            <div class="aaaa">
-              <h5 class="dtext">Card title</h5>
-              <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
-                bulk of the
-                card's
-                content.</p>
-              <div class="d-flex mb-4">
-                <a href="#" class="btn greenbt">Online</a>
-                <p class="m-auto purple">Angular</p>
-                <p class="m-auto purple">postgress</p>
-                <p class="m-auto purple">asp.net</p>
-              </div>
-            </div>
-            <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
-            <div class="aaaa">
-              <h5 class="dtext">Card title</h5>
-              <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
-                bulk of the
-                card's
-                content.</p>
-              <div class="d-flex mb-4">
-                <a href="#" class="btn greenbt">Online</a>
-                <p class="m-auto purple">Angular</p>
-                <p class="m-auto purple">postgress</p>
-                <p class="m-auto purple">asp.net</p>
-              </div>
-            </div>
-            <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
-            <div class="aaaa">
-              <h5 class="dtext">Card title</h5>
-              <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
-                bulk of the
-                card's
-                content.</p>
-              <div class="d-flex mb-4">
-                <a href="#" class="btn greenbt">Online</a>
-                <p class="m-auto purple">Angular</p>
-                <p class="m-auto purple">postgress</p>
-                <p class="m-auto purple">asp.net</p>
-              </div>
-            </div>
-            <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 ps-0">
+            <img class="imageBox" src="assets/image/hero-bg.jpg" alt="">
           </div>
         </div>
       </div>
-  </section>
-
-  <!-- Quee item -->
-  <section class="mt-section">
-
-    <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
+    </section>
 
 
-    <div class="container">
-      <div class="row">
-        <h1 class="dtext"> Contact</h1>
-        <div class="col">
-          <p class="dtext">I’m interested in freelance opportunities. If you have requests or questions, don’t hesitate
-            to use below form.</p>
-          <p>
-            <a class="contact" href="tel:+4733378901"><i class="fa fa-phone" aria-hidden="true"></i> +966 537905855</a>
+    <!-- about -->
+    <section class="mt-section">
+
+      <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
+
+      <div class="container">
+        <div class="row">
+          <h1 class="dtext"> Aboue me</h1>
+          <p class="dtext aboutText">I’m Hussain Almarzooq, a computer science graduate, programmer, designer with
+            front-end and
+            back-end
+            development skills. I am passionate about employing my diverse background to solve challenging problems and
+            create delightful experiences. I honed my skills in software, web development, and photography. I develop
+            websites with HTML, CSS, and JavaScript. I have top skills in using design software like Figma, Adobe XD and
+            Photoshop. My most important character is being diligent and always striving to achieve the best result in
+            every project I get my hands on.
           </p>
-          <p>
-            <a class="contact" href="mailto:hhaamarzouq@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-              hhaamarzouq@gmail.com</a>
-          </p>
-          <p>
-            <a class="contact"><i class="fa fa-map-marker" aria-hidden="true"></i> Somewhere in the World</a>
-          </p>
-
-          <h5 class="dtext">
-            FIND US ON
-          </h5>
-          <div class="iconcon">
-            <img class="test" src="assets/image/linkdin.svg" alt="">
-          </div>
-        </div>
-        <div class="col">
-          Column
         </div>
       </div>
-  </section>
+    </section>
+
+    <!-- Quee item -->
+    <section class="mt-section">
+
+      <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
 
 
+      <div class="container">
+        <div class="row">
+          <h1 class="dtext"> Tools</h1>
+          <div class="col">
+            <div class="marquee-wrapper">
+              <div class="container position-relative">
+                <div class="queeblurL"></div>
+                <div class="queeblurR"></div>
+                <div class="marquee-block">
+                  <div class="marquee-inner to-left">
 
-
-
-
-
-
-
-
-  <!-- Quee item -->
-  <section class="mt-section">
-
-    <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
-
-
-    <div class="container">
-      <div class="row">
-        <h1 class="dtext"> Tools</h1>
-        <div class="col">
-          <div class="marquee-wrapper">
-            <div class="container position-relative">
-              <div class="queeblurL"></div>
-              <div class="queeblurR"></div>
-              <div class="marquee-block">
-                <div class="marquee-inner to-left">
-
-                  <span>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/SQL.svg" alt="">
-                      <p class="dtext psvgtag mt-3">MySQL</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/GitHub.svg" alt="">
-                      <p class="dtext psvgtag mt-3">GitHub</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/git.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Git</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Figma.svg" alt="">
-                      <p class="dtext psvgtag mt-3">figma</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/JavaScript.svg" alt="">
-                      <p class="dtext psvgtag mt-3">JavaScript</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Bootstrap.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Bootstrap</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/MongoDB.svg" alt="">
-                      <p class="dtext psvgtag mt-3">MongoDB</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Angular.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Angular</p>
-                    </div>
-                  </span>
-                  <span>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/SQL.svg" alt="">
-                      <p class="dtext psvgtag mt-3">MySQL</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/GitHub.svg" alt="">
-                      <p class="dtext psvgtag mt-3">GitHub</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/git.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Git</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Figma.svg" alt="">
-                      <p class="dtext psvgtag mt-3">figma</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/JavaScript.svg" alt="">
-                      <p class="dtext psvgtag mt-3">JavaScript</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Bootstrap.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Bootstrap</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/MongoDB.svg" alt="">
-                      <p class="dtext psvgtag mt-3">MongoDB</p>
-                    </div>
-                    <div class="marquee-item">
-                      <img class="svgicon" src="assets/image/Angular.svg" alt="">
-                      <p class="dtext psvgtag mt-3">Angular</p>
-                    </div>
-                  </span>
+                    <span>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/SQL.svg" alt="">
+                        <p class="dtext psvgtag mt-3">MySQL</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/GitHub.svg" alt="">
+                        <p class="dtext psvgtag mt-3">GitHub</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/git.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Git</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Figma.svg" alt="">
+                        <p class="dtext psvgtag mt-3">figma</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/JavaScript.svg" alt="">
+                        <p class="dtext psvgtag mt-3">JavaScript</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Bootstrap.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Bootstrap</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/MongoDB.svg" alt="">
+                        <p class="dtext psvgtag mt-3">MongoDB</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Angular.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Angular</p>
+                      </div>
+                    </span>
+                    <span>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/SQL.svg" alt="">
+                        <p class="dtext psvgtag mt-3">MySQL</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/GitHub.svg" alt="">
+                        <p class="dtext psvgtag mt-3">GitHub</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/git.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Git</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Figma.svg" alt="">
+                        <p class="dtext psvgtag mt-3">figma</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/JavaScript.svg" alt="">
+                        <p class="dtext psvgtag mt-3">JavaScript</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Bootstrap.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Bootstrap</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/MongoDB.svg" alt="">
+                        <p class="dtext psvgtag mt-3">MongoDB</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Angular.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Angular</p>
+                      </div>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-  </section>
+    </section>
+
+    <!-- projects -->
+    <section class="mt-section">
+      <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
+      <div class="container">
+        <div class="row">
+          <h1 class="dtext">Projects</h1>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
+            <div class="cardstyle rounded">
+              <div class="aaaa">
+                <h5 class="dtext">Card title</h5>
+                <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
+                  bulk of the
+                  card's
+                  content.</p>
+                <div class="d-flex mb-4">
+                  <a href="#" class="btn greenbt">Online</a>
+                  <p class="m-auto purple">Angular</p>
+                  <p class="m-auto purple">postgress</p>
+                  <p class="m-auto purple">asp.net</p>
+                </div>
+              </div>
+              <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
+            <div class="cardstyle rounded">
+              <div class="aaaa">
+                <h5 class="dtext">Card title</h5>
+                <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
+                  bulk of the
+                  card's
+                  content.</p>
+                <div class="d-flex mb-4">
+                  <a href="#" class="btn greenbt">Online</a>
+                  <p class="m-auto purple">Angular</p>
+                  <p class="m-auto purple">postgress</p>
+                  <p class="m-auto purple">asp.net</p>
+                </div>
+              </div>
+              <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
+            <div class="cardstyle rounded">
+              <div class="aaaa">
+                <h5 class="dtext">Card title</h5>
+                <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
+                  bulk of the
+                  card's
+                  content.</p>
+                <div class="d-flex mb-4">
+                  <a href="#" class="btn greenbt">Online</a>
+                  <p class="m-auto purple">Angular</p>
+                  <p class="m-auto purple">postgress</p>
+                  <p class="m-auto purple">asp.net</p>
+                </div>
+              </div>
+              <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
+            <div class="cardstyle rounded">
+              <div class="aaaa">
+                <h5 class="dtext">Card title</h5>
+                <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
+                  bulk of the
+                  card's
+                  content.</p>
+                <div class="d-flex mb-4">
+                  <a href="#" class="btn greenbt">Online</a>
+                  <p class="m-auto purple">Angular</p>
+                  <p class="m-auto purple">postgress</p>
+                  <p class="m-auto purple">asp.net</p>
+                </div>
+              </div>
+              <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
+            <div class="cardstyle rounded">
+              <div class="aaaa">
+                <h5 class="dtext">Card title</h5>
+                <p class="card-text dtext textcarfb">Some quick example text to build on the card title and make up the
+                  bulk of the
+                  card's
+                  content.</p>
+                <div class="d-flex mb-4">
+                  <a href="#" class="btn greenbt">Online</a>
+                  <p class="m-auto purple">Angular</p>
+                  <p class="m-auto purple">postgress</p>
+                  <p class="m-auto purple">asp.net</p>
+                </div>
+              </div>
+              <img src="assets/image/New-Murab.jpg" class="card-img-top rounded" alt="...">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Quee item -->
+    <section class="mt-section">
+
+      <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
+
+
+      <div class="container">
+        <div class="row">
+          <h1 class="dtext"> Contact</h1>
+          <div class="col">
+            <p class="dtext">I’m interested in freelance opportunities. If you have requests or questions, don’t
+              hesitate
+              to use below form.</p>
+            <p>
+              <a class="contact" href="tel:+4733378901"><i class="fa fa-phone" aria-hidden="true"></i> +966
+                537905855</a>
+            </p>
+            <p>
+              <a class="contact" href="mailto:hhaamarzouq@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+                hhaamarzouq@gmail.com</a>
+            </p>
+            <p>
+              <a class="contact"><i class="fa fa-map-marker" aria-hidden="true"></i> Somewhere in the World</a>
+            </p>
+
+            <h5 class="dtext">
+              FIND US ON
+            </h5>
+            <div class="iconcon">
+              <img class="test iconwidth" src="assets/image/linkdin.svg" alt="">
+            </div>
+            <div class="iconcon ms-2 me-2">
+              <img class="test iconwidth" src="assets/image/x.svg" alt="">
+            </div>
+            <div class="iconcon">
+              <img class="test iconwidth" src="assets/image/icongithub.svg" alt="">
+            </div>
+          </div>
+          <div class="col">
+
+
+          </div>
+        </div>
+    </section>
 
 
 
-  <!-- JavaScript -->
-  <script src="assets/js/jquery.js"></script>
-  <script src="assets/js/main.js"></script>
 
 
-  <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
-  <script src="assets/js/line.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-</body>
+
+
+
+
+
+    <!-- Quee item -->
+    <section class="mt-section">
+
+      <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
+
+
+      <div class="container">
+        <div class="row">
+          <h1 class="dtext"> Tools</h1>
+          <div class="col">
+            <div class="marquee-wrapper">
+              <div class="container position-relative">
+                <div class="queeblurL"></div>
+                <div class="queeblurR"></div>
+                <div class="marquee-block">
+                  <div class="marquee-inner to-left">
+
+                    <span>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/SQL.svg" alt="">
+                        <p class="dtext psvgtag mt-3">MySQL</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/GitHub.svg" alt="">
+                        <p class="dtext psvgtag mt-3">GitHub</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/git.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Git</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Figma.svg" alt="">
+                        <p class="dtext psvgtag mt-3">figma</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/JavaScript.svg" alt="">
+                        <p class="dtext psvgtag mt-3">JavaScript</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Bootstrap.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Bootstrap</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/MongoDB.svg" alt="">
+                        <p class="dtext psvgtag mt-3">MongoDB</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Angular.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Angular</p>
+                      </div>
+                    </span>
+                    <span>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/SQL.svg" alt="">
+                        <p class="dtext psvgtag mt-3">MySQL</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/GitHub.svg" alt="">
+                        <p class="dtext psvgtag mt-3">GitHub</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/git.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Git</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Figma.svg" alt="">
+                        <p class="dtext psvgtag mt-3">figma</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/JavaScript.svg" alt="">
+                        <p class="dtext psvgtag mt-3">JavaScript</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Bootstrap.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Bootstrap</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/MongoDB.svg" alt="">
+                        <p class="dtext psvgtag mt-3">MongoDB</p>
+                      </div>
+                      <div class="marquee-item">
+                        <img class="svgicon" src="assets/image/Angular.svg" alt="">
+                        <p class="dtext psvgtag mt-3">Angular</p>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+    <script src="assets/js/line.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
 
 </html>
