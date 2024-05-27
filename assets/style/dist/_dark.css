@@ -31,3 +31,38 @@
   border: 3px solid #000000;
   box-shadow: 10px 10px #ffffff;
 }
+.dark .svgicon {
+  filter: invert(0);
+}
+.dark .queeblurL {
+  border: solid 105px #000000 !important;
+}
+.dark .queeblurR {
+  border: solid 105px #000000 !important;
+}
+.dark .cardstyle {
+  padding: 18px;
+  border: 1px solid #fff;
+}
+.dark .greenbt {
+  background: #4ae2906b;
+  color: #4AE290;
+}
+.dark .purple {
+  color: #A3B2FF;
+}
+.dark .contact {
+  color: #ffffff;
+}
+.dark .iconcon {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 10px;
+}
+.dark .iconcon:hover {
+  background: #fff;
+}
+.dark .iconcon:hover .test {
+  filter: invert(1);
+}

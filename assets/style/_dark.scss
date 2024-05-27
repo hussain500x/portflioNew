@@ -44,5 +44,59 @@ $textcolor: #ffffff;
     box-shadow: 10px 10px #ffffff;
   }
 
+  .svgicon {
+    filter: invert(0);
+  }
+
+
+  .queeblurL {
+    border: solid 105px #000000 !important;
+  }
+
+
+
+  .queeblurR {
+    border: solid 105px #000000 !important;
+
+  }
+
+  .cardstyle {
+    padding: 18px;
+    border: 1px solid #fff;
+
+  }
+
+  .greenbt {
+    background: #4ae2906b;
+    color: #4AE290;
+  }
+
+  .purple {
+    color: #A3B2FF;
+  }
+
+  .contact {
+    color: #ffffff;
+  }
+
+  .iconcon {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+  }
+
+
+
+
+  .iconcon:hover {
+    background: #fff;
+
+  }
+
+  .iconcon:hover .test {
+    filter: invert(1);
+  }
+
 
 }

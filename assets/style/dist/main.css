@@ -13038,6 +13038,41 @@ textarea.form-control-lg {
   border: 3px solid #000000;
   box-shadow: 10px 10px #ffffff;
 }
+.dark .svgicon {
+  filter: invert(0);
+}
+.dark .queeblurL {
+  border: solid 105px #000000 !important;
+}
+.dark .queeblurR {
+  border: solid 105px #000000 !important;
+}
+.dark .cardstyle {
+  padding: 18px;
+  border: 1px solid #fff;
+}
+.dark .greenbt {
+  background: #4ae2906b;
+  color: #4AE290;
+}
+.dark .purple {
+  color: #A3B2FF;
+}
+.dark .contact {
+  color: #ffffff;
+}
+.dark .iconcon {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 10px;
+}
+.dark .iconcon:hover {
+  background: #fff;
+}
+.dark .iconcon:hover .test {
+  filter: invert(1);
+}
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -13282,4 +13317,138 @@ textarea.form-control-lg {
 .aboutText {
   font-size: 1.5rem;
   font-weight: 200;
+}
+
+.marquee-wrapper {
+  text-align: center;
+}
+
+.marquee-wrapper .container {
+  overflow: hidden;
+}
+
+.marquee-inner span {
+  float: left;
+  width: 50%;
+}
+
+.marquee-wrapper .marquee-block {
+  --total-marquee-items: 8;
+  height: 205px;
+  width: calc(250px*(var(--total-marquee-items)));
+  /* overflow: hidden; */
+  box-sizing: border-box;
+  position: relative;
+  /* margin: 20px auto; */
+  /* background: #1B2531; */
+  padding: 30px 0;
+}
+
+.marquee-inner {
+  display: block;
+  width: 200%;
+  position: absolute;
+}
+
+.marquee-inner.to-left {
+  animation: marqueeLeft 25s linear infinite;
+}
+
+.marquee-inner.to-right {
+  animation: marqueeRight 25s linear infinite;
+}
+
+.marquee-item {
+  width: 230px;
+  height: auto;
+  display: inline-block;
+  margin: 0 10px;
+  float: left;
+  transition: all 0.2s ease-out;
+}
+
+.svgicon {
+  filter: invert(1);
+}
+
+.psvgtag {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.queeblurL {
+  border: solid 105px #ffffff !important;
+  left: -138px;
+  rotate: 180deg;
+  filter: blur(25px);
+  position: absolute;
+  height: 100%;
+  z-index: 6;
+}
+
+.queeblurR {
+  border: solid 105px #ffffff !important;
+  right: -138px;
+  rotate: 180deg;
+  filter: blur(25px);
+  position: absolute;
+  height: 100%;
+  z-index: 6;
+}
+
+@keyframes marqueeLeft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.cardstyle {
+  padding: 18px;
+  border: 1px solid #000000;
+  background: none;
+}
+
+.greenbt {
+  background: #4ae2906b;
+  color: #4AE290;
+}
+
+.textcarfb {
+  max-height: 120px;
+  height: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.purple {
+  color: #8094f9;
+}
+
+.contact {
+  text-decoration: none;
+  color: #000000;
+}
+
+.iconcon {
+  display: inline-block;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.iconcon:hover {
+  background: #000000;
+}
+
+.test {
+  filter: invert(0);
+}
+
+.iconcon:hover .test {
+  filter: invert(0);
 }
