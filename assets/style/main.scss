@@ -141,12 +141,12 @@ $fontsize: 18px;
 }
 
 .nav-fsize {
-  font-size: $px32;
+  font-size: $px18;
 }
 
 .sub-nav,
 .nav-link {
-  font-size: $px24;
+  font-size: $px18;
 }
 
 .text {
@@ -181,11 +181,11 @@ $fontsize: 18px;
 }
 
 .mt-section {
-  margin-top: 9.389rem;
+  margin-top: 8rem;
 }
 
 .hellobox {
-  font-size: $px24;
+  font-size: $px16;
   background: #000000;
   display: inline-block;
   padding: 10px 12px;
@@ -205,12 +205,12 @@ $fontsize: 18px;
 
 .sublodertype {
   font-weight: 300;
-  font-size: $px26;
+  font-size: $px18;
 }
 
 .btcontavt {
   margin-right: $px40;
-  font-size: $px18;
+  font-size: $px16;
   color: #FFF;
   padding: 18px 24px;
   background: #183AEF;
@@ -529,3 +529,91 @@ $fontsize: 18px;
   border-radius: .125rem;
   margin: 0 .5rem 0 0
 }
+
+
+
+
+.h-form-input {
+  width: 100%;
+  min-height: 4rem;
+  background-color: transparent;
+  border: 0 #000;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 1rem;
+  font-family: Roboto Mono, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  transition: background-color .2s, border .2s;
+}
+
+
+.h-form-input:focus,
+.h-form-input.-wfp-focus {
+  background-color: rgba(0, 0, 0, .05);
+  border-color: #191919;
+}
+
+.h-form-input:active {
+  border-color: #191919;
+}
+
+.h-form-input:focus,
+.h-form-input:focus {
+  border-color: #3898ec;
+  outline: 0;
+}
+
+
+.h-text-area {
+  min-height: 8rem;
+}
+
+
+.contact-hero-grid {
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1.25fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+
+.hsendbtn{
+  border: none;
+  background: #BAC2E9;
+    color: #fff;
+    padding: 13px 50px;
+    border-radius: 11px;
+}
+
+.hdivform{
+      float: right;
+        width: 80%;
+}
+
+.dark-light svg {
+  fill: #ffffffb3;
+  stroke: #000000;
+  width: 25PX;
+}
+
+.dfootertext {
+  color: #4c4f52;
+  font-size: 1rem;
+}
+
+
+dark .dark-light svg {
+  fill: #ffce45;
+  stroke: #ffce4552;
+
+}
+
+.dfootertext {
+  color: #ffffff;
+}
+

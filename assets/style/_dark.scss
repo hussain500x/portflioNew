@@ -101,5 +101,29 @@ $textcolor: #ffffff;
     filter: invert(1);
   }
 
+.h-form-input {
+  color: #F7F6F3;
+  border: 0 #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
 
+
+.h-form-input:focus,
+.h-form-input.-wfp-focus {
+  background-color: rgb(255 255 255 / 13%);
+  border-color: #d1d1d1;
+}
+
+
+    .dark-light svg {
+      fill: #ffce45;
+      stroke: #ffce4552;
+  
+    }
+  
+    .dfootertext {
+      color: #ffffff;
+    }
+
+    
 }
