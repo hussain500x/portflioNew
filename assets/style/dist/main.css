@@ -13659,7 +13659,3 @@ textarea.form-control-lg {
 .dfootertext {
   color: #ffffff;
 }
-
-.bi-brightness-high::before {
-  content: "" !important;
-}

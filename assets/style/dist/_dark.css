@@ -63,6 +63,26 @@
 .dark .iconcon:hover {
   background: #fff;
 }
+.dark .test {
+  filter: invert(0);
+}
 .dark .iconcon:hover .test {
   filter: invert(1);
+}
+.dark .h-form-input {
+  color: #F7F6F3;
+  border: 0 #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.dark .h-form-input:focus,
+.dark .h-form-input.-wfp-focus {
+  background-color: rgba(255, 255, 255, 0.13);
+  border-color: #d1d1d1;
+}
+.dark .dark-light svg {
+  fill: #ffce45;
+  stroke: #ffce4552;
+}
+.dark .dfootertext {
+  color: #ffffff;
 }
