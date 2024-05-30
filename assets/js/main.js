@@ -1,7 +1,7 @@
 // dark mode 
 
 function darkMode(x) {
-  x.classList.toggle("fa-moon-o");
+  x.classList.toggle("bi-brightness-high");
   var element = document.body;
   element.classList.toggle("dark");
 }

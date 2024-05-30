@@ -12198,14 +12198,14 @@ textarea.form-control-lg {
 }
 
 .iconsun {
-  font-size: 20px !important;
+  font-size: 25px !important;
   cursor: pointer;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
   background: white;
   border: 2px solid #040404;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 8px;
 }
 
@@ -12612,11 +12612,15 @@ textarea.form-control-lg {
   font-size: 1rem;
 }
 
-dark .dark-light svg {
+.dark-light svg {
   fill: #ffce45;
   stroke: rgba(255, 206, 69, 0.3215686275);
 }
 
 .dfootertext {
   color: #ffffff;
+}
+
+.bi-brightness-high::before {
+  content: "\f1d2" !important;
 }/*# sourceMappingURL=main.css.map */

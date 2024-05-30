@@ -169,14 +169,14 @@ $fontsize: 18px;
 }
 
 .iconsun {
-  font-size: 20px !important;
+  font-size: 25px !important;
   cursor: pointer;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
   background: white;
   border: 2px solid #040404;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 8px;
 }
 
@@ -419,8 +419,8 @@ $fontsize: 18px;
   filter: invert(0);
 }
 
-.iconwidth{
-      width: 25px;
+.iconwidth {
+  width: 25px;
 }
 
 
@@ -582,17 +582,17 @@ $fontsize: 18px;
 }
 
 
-.hsendbtn{
+.hsendbtn {
   border: none;
   background: #BAC2E9;
-    color: #fff;
-    padding: 13px 50px;
-    border-radius: 11px;
+  color: #fff;
+  padding: 13px 50px;
+  border-radius: 11px;
 }
 
-.hdivform{
-      float: right;
-        width: 80%;
+.hdivform {
+  float: right;
+  width: 80%;
 }
 
 .dark-light svg {
@@ -607,7 +607,7 @@ $fontsize: 18px;
 }
 
 
-dark .dark-light svg {
+.dark-light svg {
   fill: #ffce45;
   stroke: #ffce4552;
 
@@ -617,3 +617,6 @@ dark .dark-light svg {
   color: #ffffff;
 }
 
+.bi-brightness-high::before {
+  content: "\f1d2" !important;
+}

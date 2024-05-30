@@ -13070,8 +13070,28 @@ textarea.form-control-lg {
 .dark .iconcon:hover {
   background: #fff;
 }
+.dark .test {
+  filter: invert(0);
+}
 .dark .iconcon:hover .test {
   filter: invert(1);
+}
+.dark .h-form-input {
+  color: #F7F6F3;
+  border: 0 #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.dark .h-form-input:focus,
+.dark .h-form-input.-wfp-focus {
+  background-color: rgba(255, 255, 255, 0.13);
+  border-color: #d1d1d1;
+}
+.dark .dark-light svg {
+  fill: #ffce45;
+  stroke: #ffce4552;
+}
+.dark .dfootertext {
+  color: #ffffff;
 }
 
 .poppins-thin {
@@ -13189,12 +13209,12 @@ textarea.form-control-lg {
 }
 
 .nav-fsize {
-  font-size: 2rem;
+  font-size: 1.125rem;
 }
 
 .sub-nav,
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 .text {
@@ -13217,23 +13237,23 @@ textarea.form-control-lg {
 }
 
 .iconsun {
-  font-size: 20px !important;
+  font-size: 25px !important;
   cursor: pointer;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
   background: white;
   border: 2px solid #040404;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 8px;
 }
 
 .mt-section {
-  margin-top: 9.389rem;
+  margin-top: 8rem;
 }
 
 .hellobox {
-  font-size: 1.5rem;
+  font-size: 1rem;
   background: #000000;
   display: inline-block;
   padding: 10px 12px;
@@ -13252,12 +13272,12 @@ textarea.form-control-lg {
 
 .sublodertype {
   font-weight: 300;
-  font-size: 1.75rem;
+  font-size: 1.125rem;
 }
 
 .btcontavt {
   margin-right: 2.5rem;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #FFF;
   padding: 18px 24px;
   background: #183AEF;
@@ -13446,9 +13466,200 @@ textarea.form-control-lg {
 }
 
 .test {
-  filter: invert(0);
+  filter: invert(1);
 }
 
 .iconcon:hover .test {
   filter: invert(0);
+}
+
+.iconwidth {
+  width: 25px;
+}
+
+.form-input {
+  min-height: 4rem;
+  background-color: transparent;
+  border: 0 #000;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 1rem;
+  font-family: Roboto Mono, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  transition: background-color 0.2s, border 0.2s;
+}
+
+.form-input:active {
+  border-color: #191919;
+}
+
+.form-input:focus,
+.form-input.-wfp-focus {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: #191919;
+}
+
+.form-input::-ms-input-placeholder {
+  color: #191919;
+}
+
+.form-input::placeholder {
+  color: #191919;
+}
+
+.form-input.is-text-area {
+  min-height: 8rem;
+}
+
+.form-input.is-newsletter {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+
+.form-input.is-product-quantity {
+  width: 100px;
+  margin-bottom: 0;
+}
+
+.form-checkbox-label {
+  margin-left: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.max-width-xxsmall {
+  width: 100%;
+  max-width: 12rem;
+}
+
+.form-label {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-family: Roboto Mono, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.page-wrapper {
+  border: 1px solid #191919;
+}
+
+.text-size-tiny {
+  font-size: 0.75rem;
+  line-height: 160%;
+}
+
+.form-checkbox-icon {
+  width: 16px;
+  height: 16px;
+  border-color: #191919;
+  border-radius: 0;
+  margin: 0 0.5rem 2px 0;
+}
+
+.form-checkbox-icon.w--redirected-checked {
+  width: 20px;
+  height: 20px;
+  background-color: #191919;
+  background-size: 70%;
+  border-color: #191919;
+  border-radius: 0;
+  margin: 0 0.5rem 0 0;
+}
+
+.form-checkbox-icon.w--redirected-focus {
+  width: 0.875rem;
+  height: 0.875rem;
+  box-shadow: none;
+  border-color: #000;
+  border-radius: 0.125rem;
+  margin: 0 0.5rem 0 0;
+}
+
+.h-form-input {
+  width: 100%;
+  min-height: 4rem;
+  background-color: transparent;
+  border: 0 #000;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 1rem;
+  font-family: Roboto Mono, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  transition: background-color 0.2s, border 0.2s;
+}
+
+.h-form-input:focus,
+.h-form-input.-wfp-focus {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: #191919;
+}
+
+.h-form-input:active {
+  border-color: #191919;
+}
+
+.h-form-input:focus,
+.h-form-input:focus {
+  border-color: #3898ec;
+  outline: 0;
+}
+
+.h-text-area {
+  min-height: 8rem;
+}
+
+.contact-hero-grid {
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1.25fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.hsendbtn {
+  border: none;
+  background: #BAC2E9;
+  color: #fff;
+  padding: 13px 50px;
+  border-radius: 11px;
+}
+
+.hdivform {
+  float: right;
+  width: 80%;
+}
+
+.dark-light svg {
+  fill: #ffffffb3;
+  stroke: #000000;
+  width: 25PX;
+}
+
+.dfootertext {
+  color: #4c4f52;
+  font-size: 1rem;
+}
+
+.dark-light svg {
+  fill: #ffce45;
+  stroke: #ffce4552;
+}
+
+.dfootertext {
+  color: #ffffff;
+}
+
+.bi-brightness-high::before {
+  content: "" !important;
 }
