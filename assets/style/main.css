@@ -12619,4 +12619,8 @@ textarea.form-control-lg {
 
 .dfootertext {
   color: #ffffff;
+}
+
+.h-zindexbox {
+  z-index: 99;
 }/*# sourceMappingURL=main.css.map */
