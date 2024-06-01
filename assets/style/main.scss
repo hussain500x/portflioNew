@@ -136,6 +136,9 @@ $bgcolor: rgb(255, 255, 255);
 $textcolor: #000000;
 $fontsize: 18px;
 
+.dtext{
+  color: $textcolor !important;
+}
 .navbg {
   background: $bgcolor ;
 }
@@ -619,4 +622,39 @@ $fontsize: 18px;
 
 .h-zindexbox {
   z-index: 99;
+}
+
+.uk-card-primary {
+  background: none;
+  border: 1px solid #000000;
+  color: #000000;}
+
+.uk-card-primary.uk-card-hover:hover {
+  background-color: #c3c3c32e;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, .16);
+}
+       
+.uk-section {
+  padding-top: 15px !important;
+  padding-bottom: 0px;
+}
+        
+.owl-stage{
+  padding-left: 0px !important;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #000;
+  font-size: 17px;
+  padding: 14px 15px;
+  background: #ffffff !important;
+  border-radius: 16px;
+}
+.uk-card-body {
+  padding: 30px;
+}
+
+.quotes-imge {
+  width: 35px !important;
+  filter: invert(1);
 }

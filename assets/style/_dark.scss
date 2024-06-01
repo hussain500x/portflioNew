@@ -13,7 +13,7 @@ $textcolor: #ffffff;
   }
 
   .dtext {
-    color: $textcolor;
+    color: $textcolor !important;
   }
 
   .dline {
@@ -125,6 +125,11 @@ $textcolor: #ffffff;
   .dfootertext {
     color: #ffffff;
   }
-
-
+.uk-card-primary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.quotes-imge {
+  filter: invert(0);
+}
 }
