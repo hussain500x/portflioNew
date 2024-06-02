@@ -5,27 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hussain</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css'>
+    <link rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css'>
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/style1.css">
+
+    <!-- font -->
+    <link rel="stylesheet" href="assets/style/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+    <!-- font Awsom -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="assets/style/fontawesome6.css" /> -->
+    <link rel="stylesheet" href="assets/style/FontAwesome6.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
-
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css'>
-  <link rel="stylesheet" href="assets/style/main.css">
-  <link rel="stylesheet" href="assets/style/style1.css">
-
-  <!-- font -->
-  <link rel="stylesheet" href="assets/style/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-  <!-- font Awsom -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <!-- <link rel="stylesheet" href="assets/style/fontawesome6.css" /> -->
-  <link rel="stylesheet" href="assets/style/FontAwesome6.css" />
-  <link rel="stylesheet" href="assets/style/animation-library/scss/animatioms_main.scss">
 
   <body class="dark">
 
@@ -38,7 +39,7 @@
  -->
     <nav class="navbar navbar-expand-lg" aria-label="Ninth navbar example">
       <div class="container-xl">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#first">
           <h1 class="m-0 p-0 nav-fsize dtext"> &lt;HUSSAIN ALMARZOOQ/&gt;</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
@@ -48,13 +49,13 @@
         <div class="collapse navbar-collapse" id="navbarsExample07XL">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link dtext" aria-current="page" href="#">About Me </a>
+              <a class="nav-link dtext" aria-current="page" href="#aboutme">About Me </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link dtext" href="#">Projects</a>
+              <a class="nav-link dtext" href="#Projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link dtext" href="#">contact</a>
+              <a class="nav-link dtext" href="#contact">contact</a>
             </li>
           </ul>
         </div>
@@ -71,10 +72,10 @@
 
 
     <!-- section 1 -->
-    <section class="mt-section">
+    <section class="mt-section " id="first">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 col-12  u--slideLeft">
+          <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 col-12" data-aos="fade-right" data-aos-delay="300">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
                 <div>
@@ -118,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 ps-0 u--slideRight">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 ps-0" data-aos="fade-left" data-aos-delay="300">
 
             <img class="imageBox mobile-hide" src="assets/image/hero-bg.jpg" alt="">
           </div>
@@ -128,11 +129,11 @@
 
 
     <!-- about -->
-    <section class="mt-section">
+    <section class="mt-section" id="aboutme">
 
       <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="row">
           <h1 class="dtext mb-3"> About me</h1>
           <p class="dtext aboutText">I’m Hussain Almarzooq, a computer science graduate, programmer, designer with
@@ -154,7 +155,7 @@
       <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
 
 
-      <div class="container">
+      <div class="container" data-aos="zoom-in" data-aos-delay="300">
         <div class="row">
           <h1 class="dtext"> Tools</h1>
           <div class="col">
@@ -239,12 +240,13 @@
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <!-- projects -->
-    <section class="mt-section">
+    <section class="mt-section" id="Projects">
       <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
-      <div class="container">
+      <div class="container" data-aos="zoom-out" data-aos-delay="300">
         <div class="row">
           <h1 class="dtext">Projects</h1>
           <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
@@ -338,6 +340,7 @@
             </div>
           </div>
         </div>
+      </div>
     </section>
 
 
@@ -346,11 +349,10 @@
     <section class="mt-section">
 
       <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
-
-      <div class="container">
+      <div class="container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="row">
           <h1 class="dtext mb-3">How can I be useful to you</h1>
-          <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-6 mt-4">
+          <div class="col-sm-3 col-md-4 col-lg-3 col-xl-12 col-12 mt-4">
             <div class="cardstyle rounded">
               <div class="aaaa">
                 <img src="assets/image/services/convenience.svg" class="card-img-top services-icons" alt="...">
@@ -365,7 +367,7 @@
 
             </div>
           </div>
-          <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-6 mt-4">
+          <div class="col-sm-3 col-md-4 col-lg-3 col-xl-12 col-12 mt-4">
             <div class="cardstyle rounded">
               <div class="aaaa">
                 <img src="assets/image/services/convenience.svg" class="card-img-top services-icons" alt="...">
@@ -380,7 +382,7 @@
 
             </div>
           </div>
-          <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-6 mt-4">
+          <div class="col-sm-3 col-md-4 col-lg-3 col-xl-12 col-12 mt-4">
             <div class="cardstyle rounded">
               <div class="aaaa">
                 <img src="assets/image/services/convenience.svg" class="card-img-top services-icons" alt="...">
@@ -395,7 +397,7 @@
 
             </div>
           </div>
-          <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-6 mt-4">
+          <div class="col-sm-3 col-md-4 col-lg-3 col-xl-12 col-12 mt-4">
             <div class="cardstyle rounded">
               <div class="aaaa">
                 <img src="assets/image/services/convenience.svg" class="card-img-top services-icons" alt="...">
@@ -418,7 +420,7 @@
     <!-- slider -->
     <section class="mt-section">
       <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
-      <div class="container">
+      <div class="container" data-aos="zoom-in-right" data-aos-easing="ease-in-sine">
         <div class="row">
           <h1 class="dtext mb-0"> aaaa</h1>
           <div class="uk-section ">
@@ -566,14 +568,12 @@
         </div>
       </div>
 
+
     </section>
     <!-- contact us -->
-    <section class="mt-section">
-
+    <section class="mt-section" id="contact">
       <div class="line dline btLine" style="width: 100%; height: 1px;"></div>
-
-
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <h1 class="dtext mb-3"> Contact</h1>
         <div class="row">
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12">
@@ -624,6 +624,7 @@
 
           </div>
         </div>
+      </div>
     </section>
 
 
@@ -691,6 +692,10 @@
 
 
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 
 </html>
