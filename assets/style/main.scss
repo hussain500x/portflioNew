@@ -753,4 +753,9 @@ $fontsize: 18px;
         .imageBox {
           height: inherit;}
 
+                    .dark .imageBox {
+                      border: 3px solid #000000;
+                      box-shadow: 10px 10px #ff0000;
+                    }
+
 }
