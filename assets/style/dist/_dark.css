@@ -8,7 +8,7 @@
   color: #000000;
 }
 .dark .dtext {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .dark .dline {
   background: #ffffff;
@@ -85,4 +85,20 @@
 }
 .dark .dfootertext {
   color: #ffffff;
+}
+.dark .uk-card-primary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.dark .quotes-imge {
+  filter: invert(0);
+}
+.dark .owl-theme .owl-nav [class*=owl-] {
+  color: #000;
+  padding: 14px 15px;
+  background: #ffffff !important;
+  border-radius: 16px;
+}
+.dark .services-icons {
+  filter: invert(1);
 }

@@ -14,19 +14,12 @@
   border-radius: 8px;
 }
 
-h3 {
-  margin-top: 10px
-}
-
 .uk-card> :last-child {
   margin-top: 0;
   margin-bottom: 10px
 }
 
-p {
-  margin-top: 30px;
-  margin-bottom: 0;
-}
+
 
 .owl-next {
   background: #3286f0;

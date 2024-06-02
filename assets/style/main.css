@@ -12061,6 +12061,15 @@ textarea.form-control-lg {
 .dark .quotes-imge {
   filter: invert(0);
 }
+.dark .owl-theme .owl-nav [class*=owl-] {
+  color: #000;
+  padding: 14px 15px;
+  background: #ffffff !important;
+  border-radius: 16px;
+}
+.dark .services-icons {
+  filter: invert(1);
+}
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -12671,4 +12680,27 @@ textarea.form-control-lg {
 .quotes-imge {
   width: 35px !important;
   filter: invert(1);
+}
+
+.quotes-prson-imge {
+  width: 75px !important;
+  border-radius: 35px;
+}
+
+.position-name {
+  color: #7D7985;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  color: #fff;
+  font-size: 0px;
+  padding: 14px 15px;
+  background: #000000 !important;
+  border-radius: 16px;
+}
+
+.services-icons {
+  width: 140px;
+  margin: 0 auto;
+  display: block;
 }/*# sourceMappingURL=main.css.map */

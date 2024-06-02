@@ -125,11 +125,24 @@ $textcolor: #ffffff;
   .dfootertext {
     color: #ffffff;
   }
-.uk-card-primary {
-  border: 1px solid #ffffff;
-  color: #ffffff;
-}
-.quotes-imge {
-  filter: invert(0);
-}
+
+  .uk-card-primary {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+
+  .quotes-imge {
+    filter: invert(0);
+  }
+
+  .owl-theme .owl-nav [class*=owl-] {
+    color: #000;
+    padding: 14px 15px;
+    background: #ffffff !important;
+    border-radius: 16px;
+  }
+
+  .services-icons {
+    filter: invert(1);
+  }
 }

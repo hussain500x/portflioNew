@@ -136,9 +136,10 @@ $bgcolor: rgb(255, 255, 255);
 $textcolor: #000000;
 $fontsize: 18px;
 
-.dtext{
+.dtext {
   color: $textcolor !important;
 }
+
 .navbg {
   background: $bgcolor ;
 }
@@ -627,19 +628,20 @@ $fontsize: 18px;
 .uk-card-primary {
   background: none;
   border: 1px solid #000000;
-  color: #000000;}
+  color: #000000;
+}
 
 .uk-card-primary.uk-card-hover:hover {
   background-color: #c3c3c32e;
   box-shadow: 0 14px 25px rgba(0, 0, 0, .16);
 }
-       
+
 .uk-section {
   padding-top: 15px !important;
   padding-bottom: 0px;
 }
-        
-.owl-stage{
+
+.owl-stage {
   padding-left: 0px !important;
 }
 
@@ -650,6 +652,7 @@ $fontsize: 18px;
   background: #ffffff !important;
   border-radius: 16px;
 }
+
 .uk-card-body {
   padding: 30px;
 }
@@ -657,4 +660,28 @@ $fontsize: 18px;
 .quotes-imge {
   width: 35px !important;
   filter: invert(1);
+}
+
+.quotes-prson-imge {
+  width: 75px !important;
+  border-radius: 35px;
+}
+
+.position-name {
+  color: #7D7985;
+}
+
+
+.owl-theme .owl-nav [class*=owl-] {
+  color: #fff;
+  font-size: 0px;
+  padding: 14px 15px;
+  background: #000000 !important;
+  border-radius: 16px;
+}
+
+.services-icons {
+  width: 140px;
+  margin: 0 auto;
+  display: block;
 }
