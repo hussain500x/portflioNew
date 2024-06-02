@@ -12070,6 +12070,9 @@ textarea.form-control-lg {
 .dark .services-icons {
   filter: invert(1);
 }
+.dark .navbar-toggler-icon {
+  filter: invert(1);
+}
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -12703,4 +12706,35 @@ textarea.form-control-lg {
   width: 140px;
   margin: 0 auto;
   display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .lodertype,
+  .dtext .typed-cursor {
+    display: table-cell;
+  }
+  .mt-section {
+    margin-top: 6rem;
+  }
+  .mobile-box {
+    text-align: center;
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    margin: 20px 0;
+    padding: 20px 0 !important;
+  }
+  .mobile-tcenter {
+    text-align: center;
+  }
+  .counterBox {
+    padding: 25px;
+  }
+  .counterBox {
+    margin: 0px 0px;
+    border-radius: 16px;
+  }
+  .hdivform {
+    float: left;
+    width: 80%;
+  }
 }/*# sourceMappingURL=main.css.map */

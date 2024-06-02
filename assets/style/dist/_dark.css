@@ -102,3 +102,6 @@
 .dark .services-icons {
   filter: invert(1);
 }
+.dark .navbar-toggler-icon {
+  filter: invert(1);
+}
