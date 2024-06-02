@@ -12764,4 +12764,7 @@ textarea.form-control-lg {
   .mobile-hide {
     display: none;
   }
+  .imageBox {
+    height: inherit;
+  }
 }/*# sourceMappingURL=main.css.map */
