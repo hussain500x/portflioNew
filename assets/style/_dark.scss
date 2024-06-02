@@ -136,10 +136,15 @@ $textcolor: #ffffff;
   }
 
   .owl-theme .owl-nav [class*=owl-] {
-    color: #000;
+    color: #fff;
     padding: 14px 15px;
-    background: #ffffff !important;
+    background: #000000 !important;
     border-radius: 16px;
+    border: 1.5px solid #fff;
+  }
+
+  .owl-theme .owl-nav [class*='owl-']:hover {
+    color: #ffffff;
   }
 
   .services-icons {

@@ -13101,10 +13101,14 @@ textarea.form-control-lg {
   filter: invert(0);
 }
 .dark .owl-theme .owl-nav [class*=owl-] {
-  color: #000;
+  color: #fff;
   padding: 14px 15px;
-  background: #ffffff !important;
+  background: #000000 !important;
   border-radius: 16px;
+  border: 1.5px solid #fff;
+}
+.dark .owl-theme .owl-nav [class*=owl-]:hover {
+  color: #ffffff;
 }
 .dark .services-icons {
   filter: invert(1);
@@ -13734,11 +13738,16 @@ textarea.form-control-lg {
 }
 
 .owl-theme .owl-nav [class*=owl-] {
-  color: #fff;
+  color: #000;
   font-size: 0px;
   padding: 14px 15px;
-  background: #000000 !important;
+  background: #ffffff !important;
   border-radius: 16px;
+  border: 1px solid #000;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  color: #000;
 }
 
 .services-icons {
@@ -13747,10 +13756,23 @@ textarea.form-control-lg {
   display: block;
 }
 
+.mobile-show {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .lodertype,
 .dtext .typed-cursor {
     display: table-cell;
+  }
+
+  .imageBox {
+    max-width: 100%;
+    height: 100%;
+    border: 3px solid #ffffff;
+    box-shadow: 6px 7px #000000;
+    margin-bottom: 22px;
+    border-radius: 8px;
   }
 
   .mt-section {
@@ -13781,5 +13803,13 @@ textarea.form-control-lg {
   .hdivform {
     float: left;
     width: 99%;
+  }
+
+  .mobile-show {
+    display: block;
+  }
+
+  .mobile-hide {
+    display: none;
   }
 }

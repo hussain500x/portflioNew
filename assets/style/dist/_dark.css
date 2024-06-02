@@ -94,10 +94,14 @@
   filter: invert(0);
 }
 .dark .owl-theme .owl-nav [class*=owl-] {
-  color: #000;
+  color: #fff;
   padding: 14px 15px;
-  background: #ffffff !important;
+  background: #000000 !important;
   border-radius: 16px;
+  border: 1.5px solid #fff;
+}
+.dark .owl-theme .owl-nav [class*=owl-]:hover {
+  color: #ffffff;
 }
 .dark .services-icons {
   filter: invert(1);
