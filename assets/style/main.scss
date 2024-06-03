@@ -394,8 +394,10 @@ $fontsize: 18px;
 }
 
 .purple {
-
-  color: #8094f9;
+  border: 1px solid #a9a9a9;
+  color: #A3B2FF;
+  padding: 4px;
+  border-radius: 10px;
 }
 
 .contact {
@@ -696,7 +698,9 @@ $fontsize: 18px;
 .mobile-show {
   display: none;
 }
-
+.p-l-65{
+      padding-left: 65px;
+}
 @media only screen and (max-width: 600px) {
 
   .lodertype,
@@ -760,5 +764,11 @@ $fontsize: 18px;
   .mobile-mt-4 {
     margin-top: 40px;
   }
-
+    .p-l-65 {
+      padding-left: 25px;
+      font-size: 14px;
+    }
+.aboutText li{
+  margin:  15px 0;
+}
 }
