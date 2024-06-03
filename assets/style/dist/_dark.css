@@ -84,7 +84,7 @@
   stroke: #ffce4552;
 }
 .dark .dfootertext {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .dark .uk-card-primary {
   border: 1px solid #ffffff;

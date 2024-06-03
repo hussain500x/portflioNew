@@ -12052,7 +12052,7 @@ textarea.form-control-lg {
   stroke: rgba(255, 206, 69, 0.3215686275);
 }
 .dark .dfootertext {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .dark .uk-card-primary {
   border: 1px solid #ffffff;
@@ -12635,7 +12635,7 @@ textarea.form-control-lg {
 }
 
 .dfootertext {
-  color: #4c4f52;
+  color: #4c4f52 !important;
   font-size: 1rem;
 }
 
@@ -12736,6 +12736,7 @@ textarea.form-control-lg {
   }
   .mt-section {
     margin-top: 6rem;
+    overflow: hidden;
   }
   .mobile-box {
     text-align: center;
@@ -12762,9 +12763,12 @@ textarea.form-control-lg {
     display: block;
   }
   .mobile-hide {
-    display: none;
+    display: none !important;
   }
   .imageBox {
     height: inherit;
+  }
+  .mobile-mt-4 {
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=main.css.map */

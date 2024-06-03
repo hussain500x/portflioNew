@@ -13091,7 +13091,7 @@ textarea.form-control-lg {
   stroke: #ffce4552;
 }
 .dark .dfootertext {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .dark .uk-card-primary {
   border: 1px solid #ffffff;
@@ -13674,7 +13674,7 @@ textarea.form-control-lg {
 }
 
 .dfootertext {
-  color: #4c4f52;
+  color: #4c4f52 !important;
   font-size: 1rem;
 }
 
@@ -13777,6 +13777,7 @@ textarea.form-control-lg {
 
   .mt-section {
     margin-top: 6rem;
+    overflow: hidden;
   }
 
   .mobile-box {
@@ -13810,6 +13811,14 @@ textarea.form-control-lg {
   }
 
   .mobile-hide {
-    display: none;
+    display: none !important;
+  }
+
+  .imageBox {
+    height: inherit;
+  }
+
+  .mobile-mt-4 {
+    margin-top: 30px;
   }
 }

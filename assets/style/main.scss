@@ -605,7 +605,7 @@ $fontsize: 18px;
 }
 
 .dfootertext {
-  color: #4c4f52;
+  color: #4c4f52 !important;
   font-size: 1rem;
 }
 
@@ -714,6 +714,8 @@ $fontsize: 18px;
 
   .mt-section {
     margin-top: 6rem;
+    overflow: hidden;
+
   }
 
   .mobile-box {
@@ -747,10 +749,15 @@ $fontsize: 18px;
   }
 
   .mobile-hide {
-    display: none;
+    display: none !important;
   }
+
   .imageBox {
-  height: inherit;
+    height: inherit;
+  }
+
+  .mobile-mt-4 {
+    margin-top: 30px;
   }
 
 }
