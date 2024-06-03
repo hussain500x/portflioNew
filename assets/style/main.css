@@ -12012,10 +12012,6 @@ textarea.form-control-lg {
   padding: 18px;
   border: 1px solid #fff;
 }
-.dark .greenbt {
-  background: rgba(74, 226, 144, 0.4196078431);
-  color: #4AE290;
-}
 .dark .purple {
   color: #A3B2FF;
 }
@@ -12419,8 +12415,9 @@ textarea.form-control-lg {
 }
 
 .greenbt {
-  background: rgba(74, 226, 144, 0.4196078431);
-  color: #4AE290;
+  position: absolute;
+  background: rgb(74, 226, 144);
+  color: #ffffff;
 }
 
 .textcarfb {
@@ -12429,7 +12426,7 @@ textarea.form-control-lg {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box !important;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
 
@@ -12769,6 +12766,6 @@ textarea.form-control-lg {
     height: inherit;
   }
   .mobile-mt-4 {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

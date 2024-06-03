@@ -378,8 +378,9 @@ $fontsize: 18px;
 }
 
 .greenbt {
-  background: #4ae2906b;
-  color: #4AE290;
+  position: absolute;
+  background: rgb(74 226 144);
+  color: #ffffff;
 }
 
 .textcarfb {
@@ -388,7 +389,7 @@ $fontsize: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box !important;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
 
