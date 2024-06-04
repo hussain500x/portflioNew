@@ -13052,7 +13052,12 @@ textarea.form-control-lg {
   border: 1px solid #fff;
 }
 .dark .purple {
-  color: #A3B2FF;
+  color: #ececec;
+  background-color: #252525;
+}
+.dark .strong-about {
+  color: #ffffff;
+  font-weight: 700;
 }
 .dark .contact {
   color: #ffffff;
@@ -13227,6 +13232,10 @@ textarea.form-control-lg {
   color: #000000 !important;
 }
 
+.dectext {
+  color: #a1a0a0 !important;
+}
+
 .navbg {
   background: white;
 }
@@ -13290,7 +13299,6 @@ textarea.form-control-lg {
 .dtext .typed-cursor {
   font-weight: 600;
   color: #A3B2FF;
-  text-decoration: underline;
 }
 
 .sublodertype {
@@ -13309,7 +13317,9 @@ textarea.form-control-lg {
 }
 
 .btcontavt:hover {
+  text-decoration: none;
   background: #152fc5;
+  color: #FFF;
 }
 
 .contacticon {
@@ -13335,6 +13345,11 @@ textarea.form-control-lg {
 
 .ltext {
   color: #ffffff;
+}
+
+.strong-about {
+  color: #000000;
+  font-weight: 700;
 }
 
 .counterNumber {
@@ -13470,7 +13485,11 @@ textarea.form-control-lg {
 }
 
 .purple {
-  color: #8094f9;
+  color: #1f1f1f;
+  background-color: #e4e4e4;
+  padding: 6px 13px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 .contact {
@@ -13757,6 +13776,10 @@ textarea.form-control-lg {
   display: none;
 }
 
+.p-l-65 {
+  padding-left: 65px;
+}
+
 @media only screen and (max-width: 600px) {
   .lodertype,
 .dtext .typed-cursor {
@@ -13817,5 +13840,22 @@ textarea.form-control-lg {
 
   .mobile-mt-4 {
     margin-top: 40px;
+  }
+
+  .p-l-65 {
+    padding-left: 25px;
+    font-size: 14px;
+  }
+
+  .aboutText li {
+    margin: 15px 0;
+  }
+
+  .sublodertype {
+    font-size: 14px;
+  }
+
+  .btcontavt {
+    padding: 12px 12px;
   }
 }

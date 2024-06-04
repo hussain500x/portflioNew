@@ -45,7 +45,12 @@
   border: 1px solid #fff;
 }
 .dark .purple {
-  color: #A3B2FF;
+  color: #ececec;
+  background-color: #252525;
+}
+.dark .strong-about {
+  color: #ffffff;
+  font-weight: 700;
 }
 .dark .contact {
   color: #ffffff;

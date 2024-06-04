@@ -12013,7 +12013,12 @@ textarea.form-control-lg {
   border: 1px solid #fff;
 }
 .dark .purple {
-  color: #A3B2FF;
+  color: #ececec;
+  background-color: #252525;
+}
+.dark .strong-about {
+  color: #ffffff;
+  font-weight: 700;
 }
 .dark .contact {
   color: #ffffff;
@@ -12188,6 +12193,10 @@ textarea.form-control-lg {
   color: #000000 !important;
 }
 
+.dectext {
+  color: #a1a0a0 !important;
+}
+
 .navbg {
   background: rgb(255, 255, 255);
 }
@@ -12251,7 +12260,6 @@ textarea.form-control-lg {
 .dtext .typed-cursor {
   font-weight: 600;
   color: #A3B2FF;
-  text-decoration: underline;
 }
 
 .sublodertype {
@@ -12270,7 +12278,9 @@ textarea.form-control-lg {
 }
 
 .btcontavt:hover {
+  text-decoration: none;
   background: #152fc5;
+  color: #FFF;
 }
 
 .contacticon {
@@ -12296,6 +12306,11 @@ textarea.form-control-lg {
 
 .ltext {
   color: #ffffff;
+}
+
+.strong-about {
+  color: #000000;
+  font-weight: 700;
 }
 
 .counterNumber {
@@ -12431,10 +12446,11 @@ textarea.form-control-lg {
 }
 
 .purple {
-  border: 1px solid #a9a9a9;
-  color: #A3B2FF;
-  padding: 4px;
-  border-radius: 10px;
+  color: #1f1f1f;
+  background-color: #e4e4e4;
+  padding: 6px 13px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 .contact {
