@@ -211,7 +211,7 @@ $fontsize: 18px;
 }
 
 .sublodertype {
-  font-weight: 300;
+  font-weight: 400;
   font-size: $px18;
 }
 
@@ -383,7 +383,7 @@ $fontsize: 18px;
 
 
 .cardstyle {
-  padding: 18px;
+  padding: 17px;
   border: 1px solid #000000;
   background: none;
 }
@@ -395,6 +395,7 @@ $fontsize: 18px;
 }
 
 .textcarfb {
+  font-weight: 200;
   max-height: 120px;
   height: 160px;
   overflow: hidden;
@@ -701,7 +702,7 @@ $fontsize: 18px;
 
 .services-icons {
   width: 100px;
-  margin: 0px auto 12px auto;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -715,8 +716,15 @@ $fontsize: 18px;
 }
 
 .min-hcard {
-  min-height: 245px;
+  min-height: 350px;
 }
+
+.subcardbox {
+  font-weight: 300;
+  color: #898888;
+}
+
+
 
 @media only screen and (max-width: 600px) {
 

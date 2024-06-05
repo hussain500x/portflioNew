@@ -13048,7 +13048,6 @@ textarea.form-control-lg {
   border: solid 105px #000000 !important;
 }
 .dark .cardstyle {
-  padding: 18px;
   border: 1px solid #fff;
 }
 .dark .purple {
@@ -13302,7 +13301,7 @@ textarea.form-control-lg {
 }
 
 .sublodertype {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.125rem;
 }
 
@@ -13463,7 +13462,7 @@ textarea.form-control-lg {
   }
 }
 .cardstyle {
-  padding: 18px;
+  padding: 17px;
   border: 1px solid #000000;
   background: none;
 }
@@ -13475,6 +13474,7 @@ textarea.form-control-lg {
 }
 
 .textcarfb {
+  font-weight: 200;
   max-height: 120px;
   height: 160px;
   overflow: hidden;
@@ -13768,7 +13768,7 @@ textarea.form-control-lg {
 
 .services-icons {
   width: 100px;
-  margin: 0px auto 12px auto;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -13781,7 +13781,12 @@ textarea.form-control-lg {
 }
 
 .min-hcard {
-  min-height: 245px;
+  min-height: 350px;
+}
+
+.subcardbox {
+  font-weight: 300;
+  color: #898888;
 }
 
 @media only screen and (max-width: 600px) {
