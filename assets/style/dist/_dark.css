@@ -7,6 +7,9 @@
   background: #F5F3F0;
   color: #000000;
 }
+.dark .bordertmun {
+  border-top: 1px solid #ffffff;
+}
 .dark .dtext {
   color: #ffffff !important;
 }

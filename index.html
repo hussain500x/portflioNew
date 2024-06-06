@@ -51,18 +51,18 @@
         aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarsExample07XL">
+      <div class="collapse navbar-collapse bordertmun" id="navbarsExample07XL">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item me-3">
+          <li class="nav-item hhm-nav">
             <a class="nav-link dtext" aria-current="page" href="#aboutme">About Me </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item hhm-nav">
             <a class="nav-link dtext" href="#Projects">Projects</a>
           </li>
-          <li class="nav-item ms-3">
+          <li class="nav-item hhm-nav">
             <a class="nav-link dtext" href="#contact">contact</a>
           </li>
-          <li class="nav-item me-3">
+          <li class="nav-item hhm-nav">
             <a class="nav-link dtext" aria-current="page" href="#help">how can I helpe? </a>
           </li>
         </ul>
@@ -200,7 +200,7 @@
       <div class="row">
         <h1 class="dtext">Projects</h1>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
+          <div class="cardstyle rounded aaaaaa">
             <div>
               <h3 class="dtext">Saudi Takewondo Federation</h3>
               <p class="card-text dtext textcarfb mt-3">The Saudi Taekwondo Federation (STF) web portal is designed to
@@ -240,8 +240,8 @@
           </div>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
-            <div class="aaaa">
+          <div class="cardstyle rounded aaaaaa">
+            <div>
               <h3 class="dtext">Car Detection & License Plate Recognition aginst Adverserial Attacks.
               </h3>
               <p class="card-text dtext textcarfb mt-3">Automatic License Plate Recognition System (ALPRs). </p>
@@ -261,18 +261,30 @@
               <img src="assets/image/projects/New-Murab.jpg" class="card-img-top rounded" alt="...">
 
               <p class="mt-3 dtext m-0 fw-bold mb-2">Tools Used:</p>
-              <div class="d-flex ">
-                <p class="m-auto purple">Angular</p>
-                <p class="m-auto purple">Angular</p>
-                <p class="m-auto purple">Angular</p>
-                <p class="m-auto purple">postgress</p>
+              <div class="row">
+                <div class="col-sm-5 col-md-4 col-lg-4 col-xl-4 col-6 padding-card-4">
+                  <p class="purple">PHP</p>
+                </div>
+                <div class="col-sm-5 col-md-4 col-lg-4 col-xl-4 col-6 padding-card-4">
+                  <p class="purple">MySQL</p>
+                </div>
+                <div class="col-sm-5 col-md-4 col-lg-4 col-xl-4 col-6 padding-card-4">
+                  <p class="purple">python</p>
+                </div>
+                <div class="col-sm-5 col-md-4 col-lg-4 col-xl-4 col-6 padding-card-4">
+                  <p class="purple">Git</p>
+                </div>
+                <div class="col-sm-5 col-md-4 col-lg-4 col-xl-4 col-6 padding-card-4">
+                  <p class="purple">bootstrap 4</p>
+                </div>
+
               </div>
             </div>
 
           </div>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
+          <div class="cardstyle rounded aaaaaa">
             <div>
               <h3 class="dtext">HACKATHON FOR WORKSPACES</h3>
               <p class="card-text dtext textcarfb mt-3">A competition was held to enhance client access to workspaces,
@@ -299,8 +311,8 @@
 
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
-            <div class="aaaa">
+          <div class="cardstyle rounded aaaaaa">
+            <div class="">
               <h3 class="dtext">Card title</h3>
               <p class="card-text dtext textcarfb mt-3">Some quick example text to build on the card title and make up
                 the
@@ -325,7 +337,7 @@
           </div>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-4">
-          <div class="cardstyle rounded">
+          <div class="cardstyle rounded aaaaaa">
             <div class="aaaa">
               <h3 class="dtext">Card title</h3>
               <p class="card-text dtext textcarfb mt-3">Some quick example text to build on the card title and make up
@@ -715,13 +727,15 @@
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12 mobile-mt-4">
           <form action="/action_page.php">
             <div class="hdivform">
-              <input class="h-form-input" type="text" id="fname" name="fname" placeholder="Your Name"><br>
+              <input class="h-form-input" type="text" id="fname" name="fname" placeholder="Your Name"
+                aria-describedby="inputGroupPrepend2" required><br>
               <br>
               <input class="h-form-input" maxlength="256" name="Email" data-name="Email" placeholder="Your Email"
-                type="email" id="email"><br>
+                type="email" id="email" aria-describedby="inputGroupPrepend2" required><br>
               <br>
               <textarea id="Message-2" name="Message" maxlength="5000" data-name="Message" placeholder="Your Message"
-                class="h-form-input h-text-area" spellcheck="false"></textarea>
+                class="h-form-input h-text-area" spellcheck="false" aria-describedby="inputGroupPrepend2"
+                required></textarea>
               <br><br>
               <input type="submit" value="Submit" class="hsendbtn">
             </div>

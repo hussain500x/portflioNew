@@ -11975,6 +11975,9 @@ textarea.form-control-lg {
   background: #F5F3F0;
   color: #000000;
 }
+.dark .bordertmun {
+  border-top: 1px solid #ffffff;
+}
 .dark .dtext {
   color: #ffffff !important;
 }
@@ -12422,6 +12425,18 @@ textarea.form-control-lg {
     left: -100%;
   }
 }
+.aaaaaa {
+  height: 100%;
+}
+
+.hhm-nav {
+  margin-left: 8;
+}
+
+.bordertmun {
+  border-top: 1px solid #000;
+}
+
 .cardstyle {
   padding: 18px;
   border: 1px solid #000000;
