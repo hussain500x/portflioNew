@@ -11975,9 +11975,6 @@ textarea.form-control-lg {
   background: #F5F3F0;
   color: #000000;
 }
-.dark .bordertmun {
-  border-top: 1px solid #ffffff;
-}
 .dark .dtext {
   color: #ffffff !important;
 }
@@ -12079,6 +12076,11 @@ textarea.form-control-lg {
 }
 .dark .navbar-toggler-icon {
   filter: invert(1);
+}
+@media only screen and (max-width: 600px) {
+  .dark .bordertmun {
+    border-top: 1px solid #ffffff;
+  }
 }
 
 .poppins-thin {
@@ -12431,10 +12433,6 @@ textarea.form-control-lg {
 
 .hhm-nav {
   margin-left: 8;
-}
-
-.bordertmun {
-  border-top: 1px solid #000;
 }
 
 .cardstyle {
@@ -12829,5 +12827,8 @@ textarea.form-control-lg {
   }
   .min-hcard {
     min-height: 250px;
+  }
+  .bordertmun {
+    border-top: 1px solid #000;
   }
 }/*# sourceMappingURL=main.css.map */

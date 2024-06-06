@@ -389,9 +389,7 @@ $fontsize: 18px;
   margin-left: 8;
 }
 
-.bordertmun {
-  border-top: 1px solid #000;
-}
+
 
 .cardstyle {
   padding: 18px;
@@ -837,5 +835,8 @@ $fontsize: 18px;
 
   .min-hcard {
     min-height: 250px;
+  }
+  .bordertmun {
+    border-top: 1px solid #000;
   }
 }
