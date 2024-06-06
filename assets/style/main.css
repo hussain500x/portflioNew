@@ -12831,4 +12831,9 @@ textarea.form-control-lg {
   .bordertmun {
     border-top: 1px solid #000;
   }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .imageBox {
+    height: inherit;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -840,3 +840,9 @@ $fontsize: 18px;
     border-top: 1px solid #000;
   }
 }
+
+ @media (min-width: 576px) and (max-width: 992px) {
+.imageBox {
+   
+    height: inherit;}
+ }
