@@ -13369,6 +13369,7 @@ textarea.form-control-lg {
 
 .imageBox {
   max-width: 100%;
+  height: inherit !important;
   border: 3px solid #ffffff;
   box-shadow: 10px 10px #000000;
   border-radius: 8px;
@@ -13888,10 +13889,6 @@ textarea.form-control-lg {
 
   .mobile-hide {
     display: none !important;
-  }
-
-  .imageBox {
-    height: inherit;
   }
 
   .mobile-mt-4 {

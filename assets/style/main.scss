@@ -273,6 +273,7 @@ $fontsize: 18px;
 
 .imageBox {
   max-width: 100%;
+  height: inherit !important;
   // height: 100% !important;
   border: 3px solid #ffffff;
   box-shadow: 10px 10px #000000;
@@ -838,10 +839,6 @@ $fontsize: 18px;
 
   .mobile-hide {
     display: none !important;
-  }
-
-  .imageBox {
-    height: inherit;
   }
 
   .mobile-mt-4 {
