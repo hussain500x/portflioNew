@@ -12864,4 +12864,7 @@ textarea.form-control-lg {
   .bordertmun {
     border-top: 1px solid #000;
   }
+  #Feedback .owl-nav {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

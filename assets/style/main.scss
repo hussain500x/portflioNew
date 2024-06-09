@@ -869,6 +869,10 @@ $fontsize: 18px;
   .bordertmun {
     border-top: 1px solid #000;
   }
+
+  #Feedback .owl-nav {
+    display: none;
+  }
 }
 
 // @media (min-width: 576px) and (max-width: 992px) {
