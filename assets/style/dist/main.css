@@ -13683,7 +13683,7 @@ textarea.form-control-lg {
 
 .hsendbtn {
   border: none;
-  background: #A3B2FF;
+  background: #183AEF;
   color: #fff;
   padding: 13px 50px;
   border-radius: 11px;
@@ -13781,6 +13781,30 @@ textarea.form-control-lg {
   width: 100px;
   margin-bottom: 20px;
   display: block;
+}
+
+.btn-cardviw {
+  padding: 6px;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.viwe-linke-bottom {
+  position: absolute;
+  bottom: 10px;
+}
+
+.btn-mb-70 {
+  margin-bottom: 40px;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.btn-backnone {
+  pointer-events: none;
+  background: #658a79 !important;
+  color: #c8c8c8;
 }
 
 .mobile-show {
