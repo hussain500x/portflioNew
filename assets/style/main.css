@@ -12119,6 +12119,9 @@ textarea.form-control-lg {
 .AR .min-hcard {
   min-height: 280px;
 }
+.AR .hdivform {
+  float: left;
+}
 
 .ar-none {
   display: none;
