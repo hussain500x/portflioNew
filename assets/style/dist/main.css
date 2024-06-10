@@ -13380,7 +13380,7 @@ textarea.form-control-lg {
 }
 
 .aboutText {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 200;
 }
 
@@ -13917,6 +13917,8 @@ textarea.form-control-lg {
   }
 
   .bordertmun {
+    padding-top: 12px;
+    margin-top: 16px;
     border-top: 1px solid #000;
   }
 
