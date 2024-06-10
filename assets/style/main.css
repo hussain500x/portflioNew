@@ -11975,6 +11975,11 @@ textarea.form-control-lg {
   background: #F5F3F0;
   color: #000000;
 }
+.dark .aboutText {
+  color: #9d9c9c !important;
+  font-size: 24px;
+  font-weight: 400;
+}
 .dark .dtext {
   color: #ffffff !important;
 }
@@ -12084,6 +12089,36 @@ textarea.form-control-lg {
   .dark .bordertmun {
     border-top: 1px solid #ffffff;
   }
+}
+
+.AR .ar-none {
+  display: block;
+}
+.AR .en-none {
+  display: none;
+}
+.AR .ar-rtl {
+  direction: rtl;
+}
+.AR .btcontavt {
+  margin-left: 2.5rem;
+  margin-right: inherit;
+}
+.AR .counterBox {
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.AR .imageBox {
+  box-shadow: -10px -10px #ffffff;
+}
+.AR .rtltext {
+  text-align: end;
+}
+
+.ar-none {
+  display: none;
 }
 
 .poppins-thin {
@@ -12782,8 +12817,8 @@ textarea.form-control-lg {
 }
 
 .subcardbox {
-  font-weight: 300;
-  color: #898888;
+  font-weight: 400;
+  color: #828282 !important;
 }
 
 .padding-card-4 {

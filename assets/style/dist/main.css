@@ -13130,6 +13130,21 @@ textarea.form-control-lg {
   }
 }
 
+.AR .ar-none {
+  display: block;
+}
+.AR .ar-rtl {
+  direction: rtl;
+}
+.AR .btcontavt {
+  margin-left: 2.5rem;
+  margin-right: inherit;
+}
+
+.ar-none {
+  display: none;
+}
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;

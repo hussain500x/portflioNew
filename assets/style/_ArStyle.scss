@@ -1,0 +1,35 @@
+.AR {
+
+  .ar-none {
+    display: block;
+  }
+
+  .en-none {
+    display: none;
+  }
+
+  .ar-rtl {
+    direction: rtl;
+  }
+
+  .btcontavt {
+    margin-left: 2.5rem;
+    margin-right: inherit;
+  }
+
+  .counterBox {
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .imageBox {
+    box-shadow: -10px -10px #ffffff;
+  }
+
+  .rtltext {
+    text-align: end;
+  }
+
+}

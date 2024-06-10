@@ -1,0 +1,25 @@
+.AR .ar-none {
+  display: block;
+}
+.AR .en-none {
+  display: none;
+}
+.AR .ar-rtl {
+  direction: rtl;
+}
+.AR .btcontavt {
+  margin-left: 2.5rem;
+  margin-right: inherit;
+}
+.AR .counterBox {
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.AR .imageBox {
+  box-shadow: -10px -10px #ffffff;
+}
+.AR .rtltext {
+  text-align: end;
+}
