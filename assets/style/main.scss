@@ -285,7 +285,7 @@ $fontsize: 18px;
 }
 
 .aboutText {
-  font-size: $px16;
+  font-size: $px24;
   font-weight: 200;
 }
 
@@ -754,9 +754,9 @@ $fontsize: 18px;
   background: #658a79 !important;
   color: #c8c8c8;
 
-    // pointer-events: none;
-    //   background: #9099cc8f !important;
-    //   color: #c8c8c8;
+  // pointer-events: none;
+  //   background: #9099cc8f !important;
+  //   color: #c8c8c8;
 }
 
 .mobile-show {
@@ -790,6 +790,9 @@ $fontsize: 18px;
 }
 
 @media only screen and (max-width: 600px) {
+  .aboutText {
+    font-size: $px16;
+  }
 
   .lodertype,
   .dtext .typed-cursor {

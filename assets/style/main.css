@@ -12341,7 +12341,7 @@ textarea.form-control-lg {
 }
 
 .aboutText {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 200;
 }
 
@@ -12799,6 +12799,9 @@ textarea.form-control-lg {
 }
 
 @media only screen and (max-width: 600px) {
+  .aboutText {
+    font-size: 1rem;
+  }
   .lodertype,
   .dtext .typed-cursor {
     display: table-cell;
