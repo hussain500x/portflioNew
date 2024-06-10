@@ -12,7 +12,11 @@ $textcolor: #ffffff;
     color: #000000;
   }
 
-
+  .aboutText {
+    color: #9d9c9c !important;
+    font-size: $px24;
+    font-weight: 400;
+  }
 
   .dtext {
     color: $textcolor !important;
@@ -159,16 +163,17 @@ $textcolor: #ffffff;
   .navbar-toggler-icon {
     filter: invert(1);
   }
-.contactptext {
-  font-weight: 200;
 
-}
+  .contactptext {
+    font-weight: 200;
 
-@media only screen and (max-width: 600px) {
+  }
 
-      .bordertmun {
-          border-top: 1px solid #ffffff;
-        }
-}
-  
+  @media only screen and (max-width: 600px) {
+
+    .bordertmun {
+      border-top: 1px solid #ffffff;
+    }
+  }
+
 }

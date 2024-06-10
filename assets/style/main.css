@@ -12341,8 +12341,9 @@ textarea.form-control-lg {
 }
 
 .aboutText {
+  color: #828282 !important;
   font-size: 1.5rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .marquee-wrapper {
@@ -12451,7 +12452,7 @@ textarea.form-control-lg {
 }
 
 .textcarfb {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .purple {

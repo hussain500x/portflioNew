@@ -285,8 +285,9 @@ $fontsize: 18px;
 }
 
 .aboutText {
+  color: #828282 !important;
   font-size: $px24;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 
@@ -416,7 +417,7 @@ $fontsize: 18px;
 // }
 
 .textcarfb {
-  font-weight: 200;
+  font-weight: 300;
   // max-height: 166px;
   // height: 173px;
   // overflow: hidden;
@@ -772,8 +773,8 @@ $fontsize: 18px;
 }
 
 .subcardbox {
-  font-weight: 300;
-  color: #898888;
+  font-weight: 400;
+  color: #828282 !important;
 }
 
 .padding-card-4 {
