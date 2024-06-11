@@ -12091,6 +12091,16 @@ textarea.form-control-lg {
   }
 }
 
+.AR {
+  @import url("https://fonts.cdnfonts.com/css/neo-sans-arabic?styles=50556,50557,50560,50561,50559,50558,50562,50563");
+}
+.AR .sans-serif,
+.AR * {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Neo Sans Arabic", sans-serif !important;
+  font-family: "Neo Sans", sans-serif !important;
+}
 .AR .ar-none {
   display: block;
 }

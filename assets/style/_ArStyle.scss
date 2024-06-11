@@ -1,5 +1,17 @@
 .AR {
 
+  @import url('https://fonts.cdnfonts.com/css/neo-sans-arabic?styles=50556,50557,50560,50561,50559,50558,50562,50563');
+
+
+  .sans-serif,
+  * {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Neo Sans Arabic', sans-serif !important;
+    font-family: 'Neo Sans', sans-serif !important;
+
+  }
+
   .ar-none {
     display: block;
   }
@@ -31,12 +43,13 @@
   .rtltext {
     text-align: right;
   }
-    .min-hcard {
-      min-height: 280px;
-    }
 
-    .hdivform {
-      float: left;
-    }
+  .min-hcard {
+    min-height: 280px;
+  }
+
+  .hdivform {
+    float: left;
+  }
 
 }
