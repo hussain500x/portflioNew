@@ -28,7 +28,7 @@
   border-bottom-right-radius: 8px;
 }
 .AR .imageBox {
-  box-shadow: -10px -10px #ffffff;
+  box-shadow: -10px -10px #000000;
 }
 .AR .rtltext {
   text-align: right;
@@ -38,4 +38,13 @@
 }
 .AR .hdivform {
   float: left;
+}
+@media only screen and (max-width: 600px) {
+  .AR .counterBox {
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-radius: 8px;
+  }
 }

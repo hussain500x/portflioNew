@@ -3,6 +3,10 @@
   background: black;
 }
 
+.dark .imageBoxblak {
+  box-shadow: -10px -10px #ffffff !important;
+}
+
 .dark .hellobox {
   background: #F5F3F0;
   color: #000000;

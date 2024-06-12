@@ -11971,6 +11971,10 @@ textarea.form-control-lg {
   background: rgb(0, 0, 0);
 }
 
+.dark .imageBoxblak {
+  box-shadow: -10px -10px #ffffff !important;
+}
+
 .dark .hellobox {
   background: #F5F3F0;
   color: #000000;
@@ -12121,7 +12125,7 @@ textarea.form-control-lg {
   border-bottom-right-radius: 8px;
 }
 .AR .imageBox {
-  box-shadow: -10px -10px #ffffff;
+  box-shadow: -10px -10px #000000;
 }
 .AR .rtltext {
   text-align: right;
@@ -12131,6 +12135,15 @@ textarea.form-control-lg {
 }
 .AR .hdivform {
   float: left;
+}
+@media only screen and (max-width: 600px) {
+  .AR .counterBox {
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-radius: 8px;
+  }
 }
 
 .ar-none {
